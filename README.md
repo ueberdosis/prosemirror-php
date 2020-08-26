@@ -2,17 +2,17 @@
 
 # ProseMirror PHP
 
-Takes ProseMirror JSON and outputs HTML.
+This package enables you to work with ProseMirro JSON in PHP. Convert it to HTML, or convert HTML to ProseMirror compatible JSON.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ueberdosis/prosemirror-to-html.svg)](https://packagist.org/packagesueberdosis/prosemirror-to-html)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ueberdosis/prosemirror-php.svg)](https://packagist.org/packagesueberdosis/prosemirror-php)
 [![Integrate](https://github.com/ueberdosis/html-to-prosemirror/workflows/Integrate/badge.svg?branch=main)](https://github.com/ueberdosis/html-to-prosemirror/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/ueberdosis/prosemirror-to-html.svg?style=flat-square)](https://packagist.org/packages/ueberdosis/prosemirror-to-html)
+[![Total Downloads](https://img.shields.io/packagist/dt/ueberdosis/prosemirror-php.svg?style=flat-square)](https://packagist.org/packages/ueberdosis/prosemirror-php)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
 ## Installation
 
 ```bash
-composer require ueberdosis/prosemirror-to-html
+composer require ueberdosis/prosemirror-php
 ```
 
 ## Usage
@@ -71,6 +71,10 @@ Pull Requests are welcome.
 
 - [Hans Pagel](https://github.com/hanspagel)
 - [All Contributors](../../contributors)
+
+## Related Packages
+- [ueberdosis/html-to-prosemirror](https://github.com/ueberdosis/html-to-prosemirror)
+- [ueberdosis/prosemirror-to-html](https://github.com/ueberdosis/prosemirror-to-html)
 
 ## License
 
