@@ -58,6 +58,7 @@ Convert ProseMirror JSON to HTML:
 ])->toHtml();
 ```
 
+Output:
 ```html
 <p>Example Text</p>
 ```
