@@ -1,0 +1,52 @@
+{
+    "name": "ueberdosis/prosemirror-php",
+    "type": "library",
+    "description": "Work with ProseMirror JSON in PHP.",
+    "keywords": [
+        "prosemirror"
+    ],
+    "config": {
+        "platform": {
+            "php": "7.1.3"
+        }
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/ueberdosis/"
+        }
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hans Pagel"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "ueberdosis/html-to-prosemirror": "^1.0",
+        "ueberdosis/prosemirror-to-html": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0|^9.0",
+        "league/climate": "^3.5",
+        "friendsofphp/php-cs-fixer": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProseMirror\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ProseMirror\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "format": [
+            "vendor/bin/php-cs-fixer fix"
+        ],
+        "test": "phpunit tests --colors=always --verbose --testdox",
+        "test-cov": "phpunit tests --colors=always --verbose --testdox --coverage-html tests/Reports"
+    }
+}
