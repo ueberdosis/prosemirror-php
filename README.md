@@ -96,6 +96,7 @@ Pull Requests are welcome.
 ## Credits
 
 - [Hans Pagel](https://github.com/hanspagel)
+- [Markus Machatschek](https://github.com/mmachatschek)
 - [All Contributors](../../contributors)
 
 ## Related Packages
