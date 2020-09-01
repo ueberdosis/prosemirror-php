@@ -27,11 +27,21 @@ class ProseMirror
 
     public function toJson()
     {
-        return (new JsonRenderer)->render($this->html);
+        return self::htmlToJson($this->html);
     }
 
     public function toHtml()
     {
-        return (new HtmlRenderer)->render($this->json);
+        return self::jsonToHtml($this->json);
+    }
+
+    public static function jsonToHtml($value)
+    {
+        return (new HtmlRenderer)->render($value);
+    }
+
+    public static function htmlToJson($value)
+    {
+        return (new JsonRenderer)->render($value);
     }
 }
