@@ -4,8 +4,8 @@
 
 This package enables you to work with ProseMirro JSON in PHP. Convert it to HTML, or convert HTML to ProseMirror compatible JSON.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ueberdosis/prosemirror-php.svg)](https://packagist.org/packagesueberdosis/prosemirror-php)
-[![Integrate](https://github.com/ueberdosis/html-to-prosemirror/workflows/Integrate/badge.svg?branch=main)](https://github.com/ueberdosis/html-to-prosemirror/actions)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ueberdosis/prosemirror-php.svg)](https://packagist.org/packages/ueberdosis/prosemirror-php)
+[![Integrate](https://github.com/ueberdosis/prosemirror-php/workflows/Integrate/badge.svg?branch=main)](https://github.com/ueberdosis/prosemirror-php/actions)
 [![Total Downloads](https://img.shields.io/packagist/dt/ueberdosis/prosemirror-php.svg?style=flat-square)](https://packagist.org/packages/ueberdosis/prosemirror-php)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
