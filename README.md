@@ -22,6 +22,12 @@ Convert HTML to ProseMirror JSON:
 (new \ProseMirror\ProseMirror)->html('<p>Example Text</p>')->toJson();
 ```
 
+or
+
+```php
+\ProseMirror\ProseMirror::htmlToJson('<p>Example Text</p>');
+```
+
 Output:
 ```json
 {
@@ -56,6 +62,25 @@ Convert ProseMirror JSON to HTML:
         ],
     ],
 ])->toHtml();
+```
+
+or
+
+```php
+\ProseMirror\ProseMirror::jsonToHtml([
+    'type' => 'doc',
+    'content' => [
+        [
+            'type' => 'paragraph',
+            'content' => [
+                [
+                    'type' => 'text',
+                    'text' => 'Example Text',
+                ],
+            ],
+        ],
+    ],
+]);
 ```
 
 Output:
