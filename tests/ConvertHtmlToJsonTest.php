@@ -2,6 +2,8 @@
 
 namespace ProseMirror\Test;
 
+use PHPUnit\Framework\TestCase;
+
 class ConvertHtmlToJsonTest extends TestCase
 {
     /** @test */
