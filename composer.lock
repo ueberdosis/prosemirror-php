@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a112311a38fd810f7cc958953ba7f875",
+    "content-hash": "4f21ac6d4f29d643f09e08528b0a2b3c",
     "packages": [
         {
             "name": "ueberdosis/html-to-prosemirror",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ueberdosis/html-to-prosemirror.git",
-                "reference": "ea1b80c43d6c8b01675cb60e4554c880b804941e"
+                "reference": "946bb9267ed2125c6a515ece5ffd4552dbd99205"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ueberdosis/html-to-prosemirror/zipball/ea1b80c43d6c8b01675cb60e4554c880b804941e",
-                "reference": "ea1b80c43d6c8b01675cb60e4554c880b804941e",
+                "url": "https://api.github.com/repos/ueberdosis/html-to-prosemirror/zipball/946bb9267ed2125c6a515ece5ffd4552dbd99205",
+                "reference": "946bb9267ed2125c6a515ece5ffd4552dbd99205",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ueberdosis/html-to-prosemirror/issues",
-                "source": "https://github.com/ueberdosis/html-to-prosemirror/tree/1.3.0"
+                "source": "https://github.com/ueberdosis/html-to-prosemirror/tree/1.4.0"
             },
             "funding": [
                 {
@@ -57,7 +57,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-01T10:34:08+00:00"
+            "time": "2021-01-05T19:42:08+00:00"
         },
         {
             "name": "ueberdosis/prosemirror-to-html",
