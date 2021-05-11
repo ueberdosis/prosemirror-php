@@ -2,7 +2,7 @@
 
 # ProseMirror PHP
 
-This package enables you to work with ProseMirro JSON in PHP. Convert it to HTML, or convert HTML to ProseMirror compatible JSON.
+This package enables you to work with ProseMirror JSON in PHP. Convert it to HTML, or convert HTML to ProseMirror compatible JSON.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ueberdosis/prosemirror-php.svg)](https://packagist.org/packages/ueberdosis/prosemirror-php)
 [![Integrate](https://github.com/ueberdosis/prosemirror-php/workflows/Integrate/badge.svg?branch=main)](https://github.com/ueberdosis/prosemirror-php/actions)
